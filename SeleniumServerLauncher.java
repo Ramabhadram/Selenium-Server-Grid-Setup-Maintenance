@@ -31,7 +31,7 @@ public class SeleniumServerLauncher {
                 "java",
                 "-Dwebdriver.edge.driver=C:\\Development\\jars\\msedgedriver.exe", // Optional- Manually selecting the Web Driver.
                 "-jar",
-                "C:\\Development\\jars\\selenium-server-4.41.0.jar",
+                "C:\\Development\\jars\\selenium-server-4.41.0.jar", // Path to the downloaded Selenium Server Grid jar Location.
                 "standalone",
                 "--port", "4444",
                 "--selenium-manager", "true" // The server handles Web Driver downloads automatically with this flag.
