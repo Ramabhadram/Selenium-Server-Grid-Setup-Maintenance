@@ -29,12 +29,12 @@ public class SeleniumServerLauncher {
     public static void startServer() throws Exception {
         seleniumProcess = new ProcessBuilder(
                 "java",
-                "-Dwebdriver.edge.driver=C:\\Development\\jars\\msedgedriver.exe",
+                "-Dwebdriver.edge.driver=C:\\Development\\jars\\msedgedriver.exe", // Optional- Manually selecting the Web Driver.
                 "-jar",
                 "C:\\Development\\jars\\selenium-server-4.41.0.jar",
                 "standalone",
                 "--port", "4444",
-                "--selenium-manager", "true"
+                "--selenium-manager", "true" // The server handles Web Driver downloads automatically with this flag.
         ).redirectErrorStream(true).start();
 
         // Wait until server is ready
