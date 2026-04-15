@@ -16,7 +16,7 @@ Once the Server is Up and Running,
 
 /* To start a new session using Postman:
 Method -POST, URL : http://localhost:4444/session
-Headers: application/json; charset=utf-8
+Headers- Content-Type: application/json; charset=utf-8
 Body: {
   "capabilities": {
     "alwaysMatch": {
