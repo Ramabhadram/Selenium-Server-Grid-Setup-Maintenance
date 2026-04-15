@@ -11,3 +11,18 @@ To run the Grid with popular browsers using Docker, see the repository.
 To deploy the Grid to Kubernetes cluster, see the Helm chart configuration.
 
 <img width="623" height="132" alt="image" src="https://github.com/user-attachments/assets/e07273a0-a27f-48a1-a9bd-dbed9a642ca5" />
+
+Once the Server is Up and Running,
+
+/* To start a new session using Postman:
+Method -POST, URL : http://localhost:4444/session
+Headers: application/json; charset=utf-8
+Body: {
+  "capabilities": {
+    "alwaysMatch": {
+      "browserName": "chrome"
+    }
+  }
+}
+*[BrowserName - "MicrosoftEdge" for edge].
+*/
