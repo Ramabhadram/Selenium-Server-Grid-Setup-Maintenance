@@ -9,7 +9,7 @@ import java.net.URI;
 import java.time.Duration;
 
 /***********Notes **************************/
-/* To start a new seession using Postman:
+/* To start a new session using Postman:
 POST Method : http://localhost:4444/session
 Headers: application/json; charset=utf-8
 Body: {
